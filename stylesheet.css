@@ -50,3 +50,7 @@ nav a:active {
 h1,h2,p {
     margin: 0px;
 }
+#construction{
+    font-size: 40px;
+    font-weight: 700;
+}
