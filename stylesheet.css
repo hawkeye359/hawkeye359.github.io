@@ -5,13 +5,14 @@
     border-style: solid;
     border-radius: 100px;
 }
+
 body {
     background-image: url("pictures/jmi.jpeg");
     text-align: center;
     
 }
 #main1 {
-    background-color: white;
+    background-color: #FCA311;
     opacity: 0.8;
 }
 #jamia {
@@ -19,6 +20,7 @@ body {
     font-weight: bold;
     font-size: 50px;
     margin: 1px;
+    height:60px;
 }
 a {
   text-decoration: none;
@@ -30,6 +32,7 @@ p {
 }
 nav a:hover {
     text-decoration: underline;
+    color: red;
 }
 #jamia:hover {
     font-size: 60px;
@@ -37,4 +40,13 @@ nav a:hover {
 #jamialink{
     color: black;
     text-decoration: none;
+}
+nav a:active {
+    background-color: yellow;
+}
+::selection{
+    background-color: #14213D;
+}
+h1,h2,p {
+    margin: 0px;
 }
