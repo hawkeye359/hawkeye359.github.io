@@ -3,6 +3,8 @@
     width: 150px;
     border-style: solid;
     border-radius: 50%;
+    border-color: #14213d;
+    border-width: 5px;
 }
 
 body {
@@ -11,21 +13,24 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    margin: 0px;
     
 }
 #main1 {
     background-color: rgba(252,163,17,0.6);
 }
 #jamia {
-    font-family: arvobold, Arial, Helvetica, sans-serif;
+    
     font-weight: bold;
     font-size: 50px;
     margin-left: 0px;
-    border-style: solid;
-    border-color: #14213d;
-    border-width: 5px;
-    padding: 0px;
+    padding: 10px;
+    font-family: arvobold, Arial, Helvetica, sans-serif;
+    background-color: #890620;
 
+}
+#jamia a {
+    color: white;
 }
 a {
   text-decoration: none;
@@ -40,9 +45,7 @@ nav a:hover {
     color: red;
 }
 #jamia:hover {
-    border-style: solid;
-    background-color: bisque;
-    border-color: 
+    background-color: #14213d;
 }
 #jamialink{
     color: black;
