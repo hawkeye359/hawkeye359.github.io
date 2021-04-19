@@ -23,7 +23,8 @@ body {
     margin-left: 0px;
     border-style: solid;
     border-color: #14213d;
-    border-width: 3px;
+    border-width: 5px;
+    padding: 0px;
 
 }
 a {
@@ -40,8 +41,8 @@ nav a:hover {
 }
 #jamia:hover {
     border-style: solid;
-    border-width: 5px;
     background-color: bisque;
+    border-color: 
 }
 #jamialink{
     color: black;
