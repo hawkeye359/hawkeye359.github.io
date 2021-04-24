@@ -85,3 +85,9 @@ h1,h2,p {
     font-size: 40px;
     font-weight: 700;
 }
+@media(max-width: 600px){
+    #jamialink {
+        display: none;
+    }
+
+}
