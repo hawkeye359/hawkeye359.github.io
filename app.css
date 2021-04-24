@@ -35,7 +35,7 @@ div:nth-of-type(2){
     font-size: 4rem;
     text-align: right;
     font-weight: 100;
-    padding-top: 52px;
+    padding-top: 3.4rem;
     padding-right: 35px;
 }
 #amia {
@@ -46,7 +46,7 @@ div:nth-of-type(3){
     color: black;
     line-height: 1rem;
     text-align:left;
-    padding-top: 24px;
+    padding-top: 1.8rem;
     letter-spacing: 1px;
     font-weight: 700;
 }
