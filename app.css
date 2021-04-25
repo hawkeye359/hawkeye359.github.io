@@ -3,7 +3,7 @@ body {
     padding: 0px;
     background: url("images/student.jpg");
     height: 100vh;
-    width: 100%;
+    width: 180vh;
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 1;
