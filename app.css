@@ -4,7 +4,7 @@ body {
     background: url("images/student.jpg");
     height: 100%;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     opacity: 1;
     background-attachment: fixed;
@@ -167,6 +167,7 @@ nav ul li {
       font-size: 4rem;
       color: white;
       text-shadow: black;
+      margin: 0px;
   }
 
   #controlline {
@@ -185,7 +186,7 @@ nav ul li {
     }
     header {
         flex-direction: column;
-        height: 12rem;
+        height: 5rem;
     }
     #department {
         font-size: 1rem;
@@ -195,8 +196,14 @@ nav ul li {
     }
     #logo {
         align-self: center;
+        padding-bottom: 50px;
     }
     body {
         background-position-x: -700px;
+        background-size: cover;
+    }
+    #controlline {
+        padding-left: 10px;
+        padding-top: 20px;
     }
 }
